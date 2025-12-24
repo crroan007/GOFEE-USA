@@ -446,3 +446,44 @@ footer {
         display: none;
     }
 }
+
+/* Contact Form Styles (Dynasty Theme) */
+.contact-form {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: var(--font-heading);
+    color: var(--imperial-gold);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    /* Gold border */
+    color: var(--text-main);
+    padding: 15px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    border-radius: var(--radius-md);
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: var(--imperial-gold);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.1);
+}
